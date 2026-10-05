@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8f2;
+}
+
+/* Landing Page */
+
+.landing-page {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.landing-content {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 50px;
+  border-radius: 15px;
+  max-width: 650px;
+}
+
+.landing-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #245c35;
+}
+
+.landing-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.landing-content button {
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #2e7d32;
+  color: white;
+}
+
+.landing-content button:hover {
+  background-color: #1b5e20;
+}
+
+/* Navigation */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #245c35;
+  color: white;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: #245c35;
+  font-weight: bold;
+}
+
+.navbar button:hover {
+  background-color: #dcedc8;
+}
+
+/* Product Page */
+
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: #245c35;
+}
+
+h2 {
+  margin: 25px;
+  color: #2e7d32;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 8px 0;
+}
+
+/* Product Cards */
+
+h2 + div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+h2 + div > div {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+h2 + div img {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h2 + div button {
+  margin-top: 10px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2e7d32;
+  color: white;
+}
+
+h2 + div button:hover {
+  background-color: #1b5e20;
+}
